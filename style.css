@@ -1,0 +1,269 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+header{
+  background:black;
+  color:white;
+  display:flex;
+  justify-content: space-between;
+}
+header > nav ul{
+  flex:1;
+  list-style-type: none;
+  width:100%;
+  
+}
+header > nav ul li{
+    display:inline;
+  justify-content: space-between;
+}
+.searchBar{
+  width:20%;
+}
+header > nav ul li a{
+  color:white;
+  font-weight:600;
+  margin-right:2px;
+  text-decoration:none;
+  border-right:1px solid lightcyan;
+  padding:0  5px;
+}
+header div a{
+  color:white;
+  font-weight: 600;
+  text-decoration:none;
+  padding:0 0 0 4px;
+  border-left: 1px solid lightcyan;
+}
+.containerNewsHeadlines{
+  display:flex;
+  margin:3% 0;
+}
+.containerNewsHeadlines > section h2{
+  text-decoration: none;
+  word-spacing:2px;
+  margin:3% 0;
+}
+.mainNews{
+    background-image: url(/image/turbanman.jpg);
+    background-size: cover;
+    color:white;
+    margin-right:5px;
+    height:92%;
+    width:100%;
+}
+.mainNews h1{
+  margin:0px 0 15px 20px;
+  font-size:30px;
+  font-weight:800;
+  word-spacing:3px;
+  padding-top:450px;
+  
+}
+.mainNews p{
+  padding-top:10px;
+  text-decoration:none;
+  margin-left:20px;
+  margin-bottom:10px;
+  
+}
+.mainNews span{
+  margin-left:20px;
+  border-left:5px solid red;
+  padding-left:4px;
+  font-weight: 700;
+}
+.asideNews{
+  display:flex;
+  width:60%;
+  height:100%;
+  color:white;
+  flex-wrap: wrap;
+  margin-top:45px;
+}
+.asideNews div{
+  flex:1;
+  padding:160px 30px 10px 20px;
+  justify-content: space-evenly;
+  color:white;
+ 
+  
+  
+}
+.newsOne{
+  background-image:url(/image/USflag.jpg);
+  background-size:cover;
+  margin:8px 8px 10px 8px;
+  width:100%;
+  color:white;
+  height:18vh;
+}
+.asideNews div h2{
+  color:white;
+ 
+}
+
+.newsTwo{
+  background-image:url(/image/health.jpg);
+  background-size:cover;
+  margin:5px;
+  color:white;
+  padding:30px 10px 0;
+  height:18vh;
+  
+}
+.newsThree{
+  background-image:url(/image/exercise.jpg);
+  background-size:cover;
+  margin:5px;
+  color:white;
+  padding:30px 10px 0;
+  height:15vh;
+}
+.newsFour{
+  background-image:url(/image/folksinger.jpg);
+  background-size:cover;
+  margin:5px 5px 0 5px;
+  color:white;
+  padding:30px 10px 0;
+  height:15vh;
+}
+.newsOne h2{
+  padding: 15px 10px;
+  
+}
+.newsOne span{
+  padding:0 10px 0 2px;
+  border-left:4px solid red;
+  font-weight:bold;
+  margin-left:10px;
+}
+.newsThree h2{
+  color:black;
+  padding: 15px 10px;
+  
+}
+.newsThree span{
+  padding:0 10px 0 1px;
+  border-left:4px solid red;
+  font-weight:bold;
+  margin-left:10px;
+}
+.newsFour h2{
+  color:black;
+  padding: 15px 10px 5px 0;
+  
+}
+.newsFour span{
+  padding:0 10px 0 1px;
+  border-left:4px solid red;
+  font-weight:bold;
+}
+.newsTwo h2{
+  color:black;
+  padding: 15px 10px 5px 0;
+ 
+}
+.newsTwo span{
+  padding:0 10px 0 1px;
+  border-left:4px solid red;
+  font-weight:bold;
+}
+.otherNews{
+  display:flex;
+  width:100%;
+  justify-content:space-between;
+  margin-top:50px;
+}
+.otherNews section{
+  flex:1;
+}
+.otherNews section img{
+  width:300px;
+  height:200px;
+}
+.otherNews > section h3{
+  font-size:30px;
+  font-weight:600;
+  margin:10px;
+  padding-left:5px;
+  border-left:5px solid red;
+  color:black;
+}
+.otherNews section h2 a{
+  text-decoration:none;
+  color:black;
+  padding:10px 2px;
+}
+.otherNews section p{
+  padding:20px 2px;
+  font-weight:400;
+}
+.otherNews section span{
+  border-left:5px solid red;
+  padding-left:3px;
+}
+.newsSpace{
+  margin-top:51px;
+}
+
+@media screen and (min-width:500px){
+ 
+  .hidden{
+    display:none;
+  }
+  .searchBar{
+    width:5%;
+  }
+  .containerNewsHeadlines{
+  display: inline;
+  width:100%;
+  margin:2% 0;
+}
+.mainNews{
+  width:100%;
+  height:400px;
+  margin-right:3px;
+}
+.mainNews h1{
+  margin:0 0 15px 20px;
+  font-size:20px;
+  font-weight:800;
+  word-spacing:2px;
+  padding-top:250px;
+  
+}
+.asideNews{
+  display: inline;
+  width:40%;
+  height:40vh;
+  color:white;
+  margin-top:30px;
+}
+.asideNews div{
+  padding:50px 30px 10px 10px;
+  color:white;
+  text-decoration:none;
+  
+  
+}
+.otherNews {
+  display:block;
+  width: 100%;
+  margin-top: 50px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom: 20px;
+}
+.otherNews section img{
+  width:95%;
+  height:300px;
+}
+.otherNews section span{
+  border-left:5px solid red;
+  padding-left:3px;
+  
+}
+}
